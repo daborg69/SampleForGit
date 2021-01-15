@@ -4,7 +4,7 @@ namespace PrinterMgr
 	public class PrintMgr
 	{
 		public PrintMgr () {
-
+			Console.WriteLine("Starting...");
 		}
 
 
