@@ -17,5 +17,10 @@ namespace PrinterMgr
 		public bool SpoolError () {
 			return true;
 		}
+
+
+		public string TonerStatus () {
+			return "Full";
+		}
 	}
 }
