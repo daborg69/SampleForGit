@@ -9,5 +9,10 @@ namespace PrinterMgr
 		public Faxing () {
 
 		}
+
+
+		public bool Failed () {
+			return false;
+		}
 	}
 }
