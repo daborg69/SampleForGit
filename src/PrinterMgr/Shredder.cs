@@ -4,15 +4,13 @@ using System.Text;
 
 namespace PrinterMgr
 {
-	class Faxing
+	class Shredder
 	{
-		public Faxing () {
-
-		}
+		public Shredder () {}
 
 
-		public bool Failed () {
-			return false;
+		public string Status () {
+			return "Shredded";
 		}
 	}
 }
