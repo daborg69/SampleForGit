@@ -7,5 +7,10 @@ namespace PrinterMgr
 	class Shredder
 	{
 		public Shredder () {}
+
+
+		public string Status () {
+			return "Shredded";
+		}
 	}
 }
