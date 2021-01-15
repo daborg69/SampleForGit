@@ -8,5 +8,9 @@ namespace PrinterMgr
 		}
 
 
+		public bool Error () {
+			Console.WriteLine("Error");
+			return true;
+		}
 	}
 }
