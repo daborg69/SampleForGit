@@ -12,5 +12,10 @@ namespace PrinterMgr
 			Console.WriteLine("Error");
 			return true;
 		}
+
+
+		public bool SpoolError () {
+			return true;
+		}
 	}
 }
